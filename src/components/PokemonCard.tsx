@@ -1,5 +1,4 @@
-function PokemonCard() {
-  const pokemon = pokemonList[1];
+function PokemonCard({ pokemon }) {
   return (
     <figure>
       {pokemon.imgSrc !== undefined ? (
